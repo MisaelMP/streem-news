@@ -1,0 +1,14 @@
+/*
+ *  Animation Settings
+ *    Provides basic animation settings for use throughout the site.
+ */
+$s-animation--ease-in-out: ease;
+$s-animation--ease-in: ease-in;
+$s-animation--ease-out: ease-out;
+$s-animation--ease-in-out-quad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+$s-animation--fast-duration: 0.2s;
+$s-animation--default-duration: 0.25s;
+
+$s-animation--fast: $s-animation--fast-duration all $s-animation--ease-in-out-quad;
+$s-animation--default: $s-animation--default-duration all $s-animation--ease-in-out-quad;
