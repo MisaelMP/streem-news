@@ -81,12 +81,12 @@ export default {
 
 		&.is-open {
 			&:after {
-				top: 0;
+				@apply top-0;
 				transform: rotate(-45deg);
 			}
 
       &:before{
-        top: 0;
+       	@apply top-0;
 				transform: rotate(45deg);
       }
 

@@ -94,9 +94,8 @@ export default {
   @apply bg-gray-200 my-11;
 
   &__container {
-    @apply bg-gray-50;
+    @apply bg-gray-50 p-20;
     border-radius: 5rem;
-    padding: 5rem;
   }
 
   &__content {
@@ -105,7 +104,7 @@ export default {
 
   &__title {
     font-size: #{"clamp(1.5rem, 2.4vw, 3rem)"};
-    font-weight: 800;
+    @apply font-extrabold;
   }
   &__excerpt {
     @apply w-full text-sm py-5;
@@ -120,8 +119,7 @@ export default {
 	}
 
   &__image {
-    @apply w-16;
-    margin-left: 10px;
+    @apply w-16 ml-2;
   }
 
   &__footer {
