@@ -43,7 +43,7 @@ function generateErrorResponse(message) {
 }
 
 function get(url, params) {
-  return request(url, params);
+  return request(url, params,"GET");
 }
 
 function create(url, params) {
