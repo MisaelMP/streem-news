@@ -30,13 +30,11 @@ export default {
   },
 
   beforeDestroy() {
-    console.log(`is-destroy:${this.observer}`);
     this.observer.disconnect();
   },
 
   methods: {
     handleIntersect(entry) {
-      console.log(entry);
       if (entry.isIntersecting) this.$emit("triggerIntersected");
     }
   }
